@@ -104,7 +104,7 @@ header .banner{
 
 }
 
-article img{
+.note-card img{
     box-sizing: border-box;
     border-radius: 50%;
     width: 60px;
@@ -121,4 +121,27 @@ article img{
 .note-card h3{
     font-size: 24px;
     font-weight: 600;
+}
+
+
+/* 2nd brain section */
+.second-brain-section{
+    margin: 120px;
+    display: flex;
+    gap: 60px;
+    justify-content: left;
+}
+.second-brain-section article{
+    width: 500px;
+}
+.second-brain-section h3{
+    margin-top:120px ;
+    color: #30B868;
+}
+.second-brain-section .plane-text{
+    margin-top:120px ;
+    
+}
+.second-brain-section .check-mark-text{
+line-height: 34px;
 }
