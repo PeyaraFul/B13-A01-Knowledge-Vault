@@ -12,7 +12,7 @@ body{
 }
 
 /* header section */
-nav{
+header nav{
     height: 92px;
     display: flex;
     justify-content: space-around;
@@ -166,4 +166,53 @@ line-height: 34px;
 .early-acces p{
     margin-top: 16px;
     line-height: 24px;
+}
+
+/* footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    gap: 
+} */
+footer{
+    padding: 120px 120px 0;
+    background-color: #012231;
+    text-align: center;
+
+}
+footer nav{
+    display: flex;
+    justify-content: space-between;
+    
+}
+footer nav h2{
+    font-size: 20px;
+    font-weight:500;
+    color: white;
+    margin-bottom: 18px;
+}
+footer ul{
+    display: flex;
+    gap:30px;
+    list-style: none;
+}
+
+footer ul img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+hr{
+    margin-top: 80px;
+    height: 1px; 
+    background-color: #00d2fc;
+    /* border: 0.1px solid rgb(1, 234, 251); */
+    height: 1px; 
+    width:100%;
+}
+
+small{color: white;
+    display: inline-block;
+    margin: 30px;
 }
