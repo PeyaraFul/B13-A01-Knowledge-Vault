@@ -5,7 +5,7 @@
 }
 
 /* Shareable css */
-.early-acces-btn{
+.early-access-btn{
     background-color: #30B868;
     border-radius: 4px;
     font-weight: bold;
@@ -13,12 +13,10 @@
     color: white;
     border: none;  
     cursor: pointer;
-
 }
-.early-acces-btn:hover{
+.early-access-btn:hover{
     background-color: #03a446; 
 }
-
 body{
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
@@ -47,14 +45,14 @@ nav a{
     text-decoration: none;
 }
 header .banner{   
-     display: flex;
+    display: flex;
     align-items: center;
     justify-content: center;
     height: 675px;
     text-align: center;
     background-image: url(./assets/hero-bg.png);
 }
-.banner .erly-aces{
+.banner .early-access{
     padding: 8px 30px;
     background-color: whitesmoke;
     color:#30B868;
@@ -88,8 +86,7 @@ header .banner{
 }
 .banner-content button:hover{
     background-color: #03a446; 
-    border: 2px solid #03a446
-    
+    border: 2px solid #03a446;
 }
 
 
@@ -101,7 +98,6 @@ header .banner{
 }
 .notes-container{
     margin: 44px 120px;
-    
     text-align: center;
     display: flex;
     justify-content: center;
@@ -111,6 +107,11 @@ header .banner{
     font-weight: bold;
     font-size: 48px;
 }
+.note-card{
+    border-radius: 8px;
+    padding: 70px 10px 4px 10px;
+    background-color: #f4f4f3; 
+}
 .note-card img{
     box-sizing: border-box;
     border-radius: 50%;
@@ -119,22 +120,19 @@ header .banner{
     padding: 10px;
     background-color: #F95555;
 }
-.note-card{
-    border-radius: 8px;
-    /* padding-top:70px ; */
-    padding: 70px 10px 4px 10px;
-    background-color: #f4f4f3; 
-}
 .note-card h3{
     font-size: 24px;
     font-weight: 600;
+}
+.notes-section p{
+    color: rgb(127, 126, 126);  
 }
 
 
 
 /* 2nd brain section */
 .second-brain-section{
-    margin: 120px;
+    margin: 120px 120px 0px 120px;
     display: flex;
     gap: 60px;
     justify-content: left;
@@ -147,35 +145,42 @@ header .banner{
     color: #30B868;
 }
 .second-brain-section .plane-text{
-    margin-top:120px ;  
+    margin-top:110px ;
+    color: rgb(127, 126, 126);  
 }
 .second-brain-section .check-mark-text{
 line-height: 34px;
+font-weight: 500;
+list-style: none;
 }
 
 
 
-/* .erly-aces section */
-.early-acces{
-
-    height: 507px;
+/* .early-aces section */
+.early-access{
     padding: 120px;
     text-align: center;
 }
-.early-acces-container{
+.early-access-container{
     padding-top: 80px;
     padding-bottom: 80px;
     background-color: #F7F6F2;
 }
-.early-acces h1{
+.early-access h1{
     font-size: 40px;
     font-weight: bold;
 }
-.early-acces p{
+.early-access p{
+    color: rgb(127, 126, 126);  
     margin-top: 16px;
     line-height: 24px;
 }
+
+
+
+/* footer section */
 footer{
+    background-color: #F95555;
     padding: 120px 120px 0;
     background-color: #012231;
     text-align: center;
@@ -192,12 +197,12 @@ footer nav h2{
 }
 footer ul{
     display: flex;
-    gap:30px;
+    gap: 20px;
     list-style: none;
 }
 footer ul img{
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
     border-radius: 50%;
 }
 hr{
@@ -205,9 +210,15 @@ hr{
     height: 1px; 
     background-color: #00d2fc;
     height: 1px; 
-    width:100%;
+    width: 100%;
 }
-small{color: white;
+
+/* copy rights properties */
+small{
+    color: white;
     display: inline-block;
     margin: 30px;
 }
+
+
+/* developed by Akash */
