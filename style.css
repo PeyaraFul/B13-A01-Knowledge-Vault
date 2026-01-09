@@ -8,7 +8,7 @@ body{
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
     max-width: 1600px;
-    background-color: rgb(123, 122, 122);
+    background-color: white;
 }
 
 /* header section */
@@ -27,7 +27,7 @@ nav{
 nav a{
     text-decoration: none;
 }
-nav button{
+.early-acces-btn{
     background-color: #30B868;
     border-radius: 4px;
     font-weight: 600;
@@ -144,4 +144,26 @@ header .banner{
 }
 .second-brain-section .check-mark-text{
 line-height: 34px;
+}
+
+
+/* .erly-aces section */
+.early-acces{
+
+    height: 507px;
+    padding: 120px;
+    text-align: center;
+}
+.early-acces-container{
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background-color: #F7F6F2;
+}
+.early-acces h1{
+    font-size: 40px;
+    font-weight: bold;
+}
+.early-acces p{
+    margin-top: 16px;
+    line-height: 24px;
 }
