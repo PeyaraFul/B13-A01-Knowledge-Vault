@@ -162,6 +162,7 @@ list-style: none;
     text-align: center;
 }
 .early-access-container{
+    border-radius: 12px;
     padding-top: 80px;
     padding-bottom: 80px;
     background-color: #F7F6F2;
